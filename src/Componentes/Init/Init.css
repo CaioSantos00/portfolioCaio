@@ -1,0 +1,38 @@
+#homePage {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    height: 80vh;
+    margin: 0 8%;
+}
+
+#textPresentation {
+    font-size: 1.5em;
+}
+
+#myName {
+    font-size: 2em;
+    font-weight: bold;
+    color: #78C1F3;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: #78C1F3;
+    border-radius: 100%;
+}
+
+#divLogos {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.logosTech {
+    margin: 5px;
+}
