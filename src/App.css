@@ -14,4 +14,22 @@ a {
 
 section {
   margin: 20px 10%;
+  overflow: hidden;
+}
+
+.title {
+ color: #78C1F3;
+}
+
+.slide-in {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0% );
+  }
 }

@@ -15,7 +15,6 @@
 #myName {
     font-size: 2em;
     font-weight: bold;
-    color: #78C1F3;
 }
 
 #img {
@@ -33,6 +32,31 @@
     justify-content: center;
 }
 
+@keyframes animationTechs {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(30%);
+    }
+}
+
 .logosTech {
-    margin: 5px;
+    margin: 9px;
+    animation: animationTechs 2s infinite alternate;
+    animation-timing-function: cubic-bezier(0.5, 0.05, 0.1, 0.3);
+}
+
+@keyframes animationGit {
+    from {
+        transform: translateY(50%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+#logoGit {
+    animation: animationGit 2s infinite alternate;
+    animation-timing-function: cubic-bezier(0.5, 0.05, 0.1, 0.3);
 }
