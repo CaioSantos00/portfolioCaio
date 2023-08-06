@@ -3,7 +3,7 @@ export default function Init() {
   return (
     <div id="homePage">
       <div id="divPresentation">
-        <span id="textPresentation">Olá, me chamo <br /><span className="title" id="myName">Caio dos Santos Oliveira</span><br /> e sou desenvolvedor Front-End.</span>
+        <span id="textPresentation">Olá, me chamo <br /><span className="title" id="myName">Caio dos Santos Oliveira</span><br /> e sou desenvolvedor Front End.</span>
 
       </div>
       <div id="divAvatar">
