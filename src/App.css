@@ -8,6 +8,20 @@ body {
   color: #ffffff;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78C1F3;
+  border-radius: 5px;
+}
+
+
 a {
   text-decoration: none;
 }

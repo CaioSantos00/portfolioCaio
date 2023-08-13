@@ -10,35 +10,38 @@
 
 #divTechs {
     display: grid;
-    grid-template-areas: 'cardsTech cardsTech cardsTech';
+    grid-template-areas: 'cardsTech cardsTech cardsTech cardsTech cardsTech cardsTech';
     justify-content: center;
     gap: 10px;
 }
 
 .cardsTech {
-    width: 50px;
+    width: 100px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(37, 37, 37, 0.5); /* Cor de fundo com transparência (ajuste o valor de alpha para a transparência desejada) */
+    background-color: rgba(37, 37, 37, 0.5);
   border-radius: 10px;
   backdrop-filter: blur(10px);
   padding: 8px;
+  transition: .5s;
   border: 1px solid rgb(56, 56, 56);
 }
 
+.cardsTech:hover {
+    box-shadow: 0px 0px 10px 1px rgb(56, 56, 56);
+}
+
 .nameTech {
-    margin: 5px 0px 0px;
+    color: #78C1F3;
+    margin: 5px 0px;
     font-size: 0.8em;
-    text-transform: uppercase;
 }
 
 #containerSobreTech {
     display: grid;
     justify-content: center;
-    gap: 3vw;
-    grid-template-areas: 'sobre containerTechs';
 }
 
 #carrosel {
@@ -47,6 +50,7 @@
 }
 
 #divCerti {
+    margin: 10vh 0vh;
     display: flex;
     justify-content: center;
     flex-direction: column;

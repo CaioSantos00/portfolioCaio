@@ -1,0 +1,68 @@
+#boxCardsProje{
+    display: grid;
+    width: 100%;
+    gap: 10px;
+}
+
+.divCardsProject {
+  background-color: rgba(37, 37, 37, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 8px;
+  border: 1px solid rgb(56, 56, 56);
+  display: grid;
+  grid-template-areas: 'divNameDescri divImg';
+}
+
+.divNameDescri {
+    margin: 1.5vh;
+}
+
+.divImg {
+    width: 460px;
+}
+
+.imgProje {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nameProject {
+    margin: 1vh;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #78C1F3;
+}
+
+.descriProject {
+    width: 90%;
+    font-size: 1.2em;
+}
+
+.btnsProjetos {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: #78C1F3;
+    color: white;
+    padding: 7px;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.divBtnVeja {
+    width: 133px;
+    margin: 15px 0px;
+}
+
+#divBreve {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(37, 37, 37, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(56, 56, 56);
+}
