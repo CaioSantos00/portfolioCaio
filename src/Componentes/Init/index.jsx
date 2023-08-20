@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom'
 import "./Init.css"
+
 export default function Init() {
   return (
     <div id="homePage">
       <div id="divPresentation">
-        <span id="textPresentation">Olá, me chamo <br /><span className="title" id="myName">Caio dos Santos Oliveira</span><br /> e sou desenvolvedor Front End.</span>
-
+        <span id="textPresentation">👋 Olá, me chamo <br /><div className="title" id="myName">Caio dos Santos Oliveira</div> e sou desenvolvedor Front End.</span>       <br />
+        <button className="btnCurri">Download CV</button> <Link to="/Sobre"><button className="btnCurri">Saiba mais</button></Link>
       </div>
       <div id="divAvatar">
-        <div id="img"></div>
+        <div className="img"></div>
         <div id="divLogos">
           <a className="logosTech" href="http://www.linkedin.com/in/
 caiosantos123027228

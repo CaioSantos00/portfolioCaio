@@ -15,9 +15,28 @@
 #myName {
     font-size: 2em;
     font-weight: bold;
+    transition: .5s animationName infinite;
+    width: 25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20), blinking 0.5s infinite step-end alternate;
 }
 
-#img {
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+.img {
     display: flex;
     justify-content: center;
     width: 250px;
@@ -59,4 +78,45 @@
 #logoGit {
     animation: animationGit 2s infinite alternate;
     animation-timing-function: cubic-bezier(0.5, 0.05, 0.1, 0.3);
+}
+
+.btnCurri {
+    margin: 10px 0px;
+    font-size: 1.2em;
+    padding: 5px;
+    color: #78C1F3;
+    background-color: transparent;
+    border: 3px solid #78C1F3;
+    border-radius: 5px;
+    transition: 1s ease;
+}
+
+.btnCurri:hover {
+    background-color: #78C1F3;
+    color: #FFFF;
+}
+
+@media screen and (max-width:1115px) {
+    #homePage {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    #myName {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 464px){
+    #textPresentation {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .btnCurri {
+        font-size: 1.1em;
+    }
 }

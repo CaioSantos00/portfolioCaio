@@ -9,7 +9,7 @@ export default function Header() {
         <nav>
         <ul>
             <li><Link to="/"><span id='home'>Home</span></Link></li>
-            <li><Link to="/Sobre">Sobre mim</Link></li>
+            <li><Link to="/Sobre">Sobre</Link></li>
             <li><Link to="/Projetos">Projetos</Link></li>
         </ul>
     </nav>
