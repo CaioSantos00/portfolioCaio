@@ -1,3 +1,12 @@
+@keyframes animationDispositivos {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(6%);
+    }
+}
+
 #boxSobreTechs {
     margin-top: 100px;
     display: grid;
@@ -7,18 +16,8 @@
 
 #imgPc {
     width: 350px;
-    animation: animationPc 2s infinite alternate;
+    animation: animationDispositivos 2s infinite alternate;
     animation-timing-function: cubic-bezier(0.5, 0.05, 0.1, 0.3);
-}
-
-
-@keyframes animationPc {
-    from {
-        transform: translateY(0%);
-    }
-    to {
-        transform: translateY(6%);
-    }
 }
 
 #titleTech {
@@ -40,7 +39,7 @@
 .titles {
     margin: 0px 0px 10px 0px;
     font-size: 2em;
-    color: #78C1F3;
+    color: #8099eb;
     text-align: start;
 }
 
@@ -62,16 +61,17 @@
 }
 
 .imgsCerti {
+    border-radius: 10px;
     width: 800px;
     height: auto;
 }
 
 #contact {
     margin: 0px 10px;
-    background-color: #78C1F3;
+    background-color: #8099eb;
     color: white;
     padding: 7px 5%;
-    border: 3px solid #78C1F3;
+    border: 3px solid #8099eb;
     font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
@@ -81,9 +81,66 @@
 
 #contact:hover {
     background-color: transparent;
-    color: #78C1F3;
-    border: 3px solid #78C1F3;
+    color: #8099eb;
+    border: 3px solid #8099eb;
 
+}
+
+#divContacts{
+    padding: 10px 0px;
+    background-color: #0a0913;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#titleContact {
+    text-indent: 10px;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#textContact {
+    color: rgb(214, 214, 214);
+}
+
+#meiosContacts {
+    padding: 10px;
+}
+
+#divInfos {
+    margin: 20px;
+}
+
+#divTexts {
+    margin-left: 30px;
+}
+
+.boxContacts {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.textInfo {
+    margin: 0px 10px;
+    font-size: 1.2em;
+}
+
+#boxInfoAndCell {
+    display: grid;
+    grid-template-areas: 'divInfos imgCell';
+}
+
+#imgCell {
+    transform: translateY(-50px);
+    margin-left: 15vw;
+}
+
+#cell {
+    animation: animationDispositivos 2s infinite alternate;
+    animation-timing-function: cubic-bezier(0.5, 0.05, 0.1, 0.3);
+    width: 200px;
 }
 
 @media screen and (max-width: 1115px) {

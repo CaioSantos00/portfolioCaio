@@ -17,7 +17,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #78C1F3;
+  background: #8099eb;
   border-radius: 5px;
 }
 
@@ -32,7 +32,7 @@ section {
 }
 
 .title {
- color: #78C1F3;
+ color: #8099eb;
 }
 
 .slide-in {
