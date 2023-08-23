@@ -101,7 +101,6 @@ export default function Projetos() {
         <>
         <CardsTech nameTech='HTML'/>
         <CardsTech nameTech='CSS'/>
-        <CardsTech nameTech='Javascript'/>
         </>
         }
        />

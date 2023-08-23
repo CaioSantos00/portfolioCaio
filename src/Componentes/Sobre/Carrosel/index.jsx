@@ -12,12 +12,13 @@ import sass from "../../../assets/sass.png"
 export default function Carrosel () {
   const settings = {
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-
+  
   return (
     <div id='carrosel'>
       <Slider {...settings}>
