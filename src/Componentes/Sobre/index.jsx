@@ -15,8 +15,10 @@ export default function Sobre() {
         <div id='boxSobre'>
           <div id='textSobre'>
             <h1 className="titles">Conheça mais sobre</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae labore quis alias assumenda tempora totam sed obcaecati, reprehenderit nulla et iste perspiciatis laudantium. Repellendus modi obcaecati accusamus sunt pariatur.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nemo minima! Laboriosam eum alias inventore ex illum nisi atque perspiciatis ab, hic, repellat, sapiente asperiores officia? Doloremque dignissimos deserunt aliquid.
+            <p>
+            Olá! Me chamo Caio dos Santos Oliveira, um jovem estudante com grande foco no desenvolvimento Full-Stack. Atualmente, estou com 17 anos e possuo um grande amor pelo mundo da tecnologia. 
+            <br />&nbsp;&nbsp;No momento, estou matriculado no curso técnico de Informática para Internet na instituição Senac. <br />&nbsp;&nbsp;Busco constantemente por atualizações e aprendizado em relação às novas tecnologias.
+Meu objetivo primordial consiste em iniciar no mercado de trabalho como um desenvolvedor front-end, assim adquirindo um vasto conhecimento e experiência. Estou disposto a abraçar cada novo desafio que seja apresentado.
             </p>
           </div>
         </div>

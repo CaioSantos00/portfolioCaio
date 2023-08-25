@@ -26,7 +26,7 @@ export default function Projetos() {
         imgProject={sAcessi} 
         altImg='Landing Page acessibilidade' 
         nameProject='Landing Page acessibilidade' 
-        descriProject='O site é uma página da web projetada com foco na acessibilidade. Ao acessar o site, a primeira coisa que se destaca é a sua abordagem clara e funcional para garantir que pessoas com diferentes tipos de deficiências possam navegar e interagir com o conteúdo de maneira eficaz.'
+        descriProject='O site é uma página da web projetada com foco na acessibilidade. Ao acessar o site, a primeira coisa que se destaca é a sua abordagem clara e funcional para garantir que pessoas com diferentes tipos de deficiências possam navegar e interagir com o conteúdo de maneira eficaz. '
         linkPro='https://lading-page-acessibilidade.vercel.app/'
         techs={
         <>
@@ -39,7 +39,7 @@ export default function Projetos() {
         imgProject={burger} 
         altImg='Landing Page Hamburger' 
         nameProject='Landing Page Hamburgueria' 
-        descriProject='Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at consectetur ea molestias ad reprehenderit odit veniam consequuntur. At eveniet quas officia nesciunt ipsam eos, quasi amet ullam quis consequatur.' 
+        descriProject='Em construção&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' 
         linkPro=''
         techs={
           <>
