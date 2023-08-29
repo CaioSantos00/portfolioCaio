@@ -169,17 +169,11 @@
 }
 
 .imgProje {
-    width: 280px;
+    width: 100%;
 }
 
 .btnsProjetos {
     padding: 5px;
     font-size: 0.9em;
-}
-}
-
-@media screen and (max-width: 360px) {   
-.imgProje {
-    width: 315px;
 }
 }
