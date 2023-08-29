@@ -43,6 +43,7 @@
     height: 250px;
     background-color: #8099eb;
     border-radius: 100%;
+    overflow: hidden;
 }
 
 #divLogos {
