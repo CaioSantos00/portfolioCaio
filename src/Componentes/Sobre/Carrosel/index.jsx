@@ -8,6 +8,7 @@ import css from '../../../assets/css.png'
 import js from '../../../assets/js.png'
 import reactImg from "../../../assets/react.png"
 import sass from "../../../assets/sass.png"
+import rocket from "../../../assets/certRocket.png"
 
 export default function Carrosel () {
   const settings = {
@@ -36,6 +37,9 @@ export default function Carrosel () {
         </div>
         <div>
           <img src={reactImg} alt='Certificado de React JS' className='imgsCerti' />
+        </div>
+        <div>
+          <img src={rocket} alt='Certificado Rocketseat' className='imgsCerti' />
         </div>
       </Slider>
     </div>
