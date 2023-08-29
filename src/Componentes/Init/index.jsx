@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import myImg from '../../assets/myImg.png'
 import "./Init.css"
 
 export default function Init() {
@@ -9,7 +10,7 @@ export default function Init() {
         <button className="btnCurri">Download CV</button> <Link to="/Sobre"><button className="btnCurri">Saiba mais</button></Link>
       </div>
       <div id="divAvatar">
-        <div className="img"></div>
+        <div className="img"><img src={} alt="Minha Foto" /></div>
         <div id="divLogos">
           <a className="logosTech" href="http://www.linkedin.com/in/
 caiosantos123027228
