@@ -36,20 +36,6 @@ export default function Projetos() {
         }
         />
         <CardsProject 
-        imgProject={burger} 
-        altImg='Landing Page Hamburger' 
-        nameProject='Landing Page Hamburgueria' 
-        descriProject='Em construção&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' 
-        linkPro=''
-        techs={
-          <>
-          <CardsTech nameTech='HTML'/>
-          <CardsTech nameTech='CSS'/>
-          <CardsTech nameTech='React'/>
-          </>
-          }
-        />
-        <CardsProject 
         imgProject={apiClima}
         altImg='Api de Clima'
         nameProject='Api Clima' 
@@ -78,16 +64,16 @@ export default function Projetos() {
           }
         />
         <CardsProject 
-        imgProject={quizImg} 
-        altImg='Quiz de Javascript' 
-        nameProject='Quiz Javascript' 
-        descriProject='O site é uma plataforma interativa dedicada à educação financeira. Ao acessar o site, você se depara com uma experiência envolvente que visa testar e aprimorar seus conhecimentos sobre temas relacionados a finanças pessoais.' 
-        linkPro='https://quiz-javascript-mauve.vercel.app/'
+        imgProject={burger} 
+        altImg='Landing Page Hamburger' 
+        nameProject='Landing Page Hamburgueria' 
+        descriProject='Em construção&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' 
+        linkPro=''
         techs={
           <>
           <CardsTech nameTech='HTML'/>
           <CardsTech nameTech='CSS'/>
-          <CardsTech nameTech='Javascript'/>
+          <CardsTech nameTech='React'/>
           </>
           }
         />
