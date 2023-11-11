@@ -2,10 +2,8 @@ import CardsProject from "./CardsProjects"
 import CardsTech from "./CardsTech"
 import sAcessi from "../../assets/Projetos/siteAcessibilidade.png"
 import apiClima from "../../assets/Projetos/apiClima.png"
-import quizImg from "../../assets/Projetos/quiz.png"
 import cardapio from "../../assets/Projetos/cardapio.png"
 import gerador from "../../assets/Projetos/geradorPass.png"
-import burger from "../../assets/Projetos/burger.png"
 
 import './Projetos.css'
 export default function Projetos() {
@@ -55,20 +53,6 @@ export default function Projetos() {
         nameProject='Gerador de Senhas' 
         descriProject='O site é uma ferramenta online projetada para gerar senhas seguras e aleatórias.Ao acessar o site, você é apresentado a uma interface simples e direta, cujo objetivo principal é auxiliar os usuários na criação de senhas robustas para garantir a segurança de suas contas online.' 
         linkPro='https://gerador-senhas-2qovjqoft-caiosantos00.vercel.app/'
-        techs={
-          <>
-          <CardsTech nameTech='HTML'/>
-          <CardsTech nameTech='CSS'/>
-          <CardsTech nameTech='React'/>
-          </>
-          }
-        />
-        <CardsProject 
-        imgProject={burger} 
-        altImg='Landing Page Hamburger' 
-        nameProject='Landing Page Hamburgueria' 
-        descriProject='Em construção&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' 
-        linkPro=''
         techs={
           <>
           <CardsTech nameTech='HTML'/>
