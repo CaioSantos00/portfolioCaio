@@ -7,7 +7,7 @@ export default function Init() {
     <div id="homePage">
       <div id="divPresentation">
         <span id="textPresentation">👋 Olá, me chamo <br /><div className="title" id="myName">Caio dos Santos Oliveira</div> e sou desenvolvedor Front End.</span>       <br />
-        <a href="file:///C:/Users/caios/Downloads/Curr%C3%ADculo%20(2).pdf" target="_blank" rel="noopener noreferrer"><button className="btnCurri">Download CV</button></a> <Link to="/Sobre"><button className="btnCurri">Saiba mais</button></Link>
+        <a href="https://drive.google.com/file/d/1PE2z0gAJweymRaQR_8FE0VDd79ugWdJl/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btnCurri">Download CV</button></a> <Link to="/Sobre"><button className="btnCurri">Saiba mais</button></Link>
       </div>
       <div id="divAvatar">
         <div className="img"><img src={myImg} alt="Minha Foto" /></div>
