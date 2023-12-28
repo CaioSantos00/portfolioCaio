@@ -17,7 +17,7 @@ export default function Sobre() {
             <h1 className="titles">Conheça mais sobre</h1>
             <p>
             Olá! Me chamo Caio dos Santos Oliveira, um jovem estudante com grande foco no desenvolvimento Full-Stack. Atualmente, estou com 17 anos e possuo um grande amor pelo mundo da tecnologia. 
-            <br />&nbsp;&nbsp;No momento, estou matriculado no curso técnico de Informática para Internet na instituição Senac. <br />&nbsp;&nbsp;Busco constantemente por atualizações e aprendizado em relação às novas tecnologias.
+            <br />&nbsp;&nbsp;No momento, cursando Superior de Tecnologia em Sistemas para Internet na Faculdade Cruzeiro do Sul Virtual. <br />&nbsp;&nbsp;Busco constantemente por atualizações e aprendizado em relação às novas tecnologias.
 Meu objetivo primordial consiste em iniciar no mercado de trabalho como um desenvolvedor front-end, assim adquirindo um vasto conhecimento e experiência. Estou disposto a abraçar cada novo desafio que seja apresentado.
             </p>
           </div>
