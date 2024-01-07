@@ -43,19 +43,6 @@ export default function Projetos() {
         </>
         }
         />
-      <CardsProject 
-        imgProject={sAcessi} 
-        altImg='Landing Page acessibilidade' 
-        nameProject='Landing Page acessibilidade' 
-        descriProject='O site é uma página da web projetada com foco na acessibilidade. Ao acessar o site, a primeira coisa que se destaca é a sua abordagem clara e funcional para garantir que pessoas com diferentes tipos de deficiências possam navegar e interagir com o conteúdo de maneira eficaz. '
-        linkPro='https://lading-page-acessibilidade.vercel.app/'
-        techs={
-        <>
-        <CardsTech nameTech='HTML'/>
-        <CardsTech nameTech='CSS'/>
-        </>
-        }
-        />
         <CardsProject 
         imgProject={sAcessi} 
         altImg='Landing Page acessibilidade' 
