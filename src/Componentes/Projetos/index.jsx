@@ -4,6 +4,7 @@ import sAcessi from "../../assets/Projetos/siteAcessibilidade.png"
 import apiClima from "../../assets/Projetos/apiClima.png"
 import cardapio from "../../assets/Projetos/cardapio.png"
 import gerador from "../../assets/Projetos/geradorPass.png"
+import loja from "../../assets/Projetos/loja.png"
 
 import './Projetos.css'
 export default function Projetos() {
@@ -19,8 +20,42 @@ export default function Projetos() {
         <CardsTech nameTech={'React Js'} />
         <CardsTech nameTech={'Git Hub'}/>
         <CardsTech nameTech={'Python'}/>
+        <CardsTech nameTech={'PHP'}/>
+        <CardsTech nameTech={'Laravel'}/>
       </div>
       </div>
+      
+      <CardsProject 
+        imgProject={loja} 
+        altImg='E-commerce MYX' 
+        nameProject='Loja virtual MYX' 
+        descriProject='
+        O projeto da loja Mynd Of Gangster está sendo desenvolvido de maneira colaborativa, contando com a ajuda de um Desenvolvedor Back-End. Vale ressaltar que o trabalho realizado está sendo devidamente remunerado, garantindo o reconhecimento e a valorização do profissional envolvido. '
+        linkPro=''
+        techs={
+        <>
+        <CardsTech nameTech='HTML'/>
+        <CardsTech nameTech='CSS'/>
+        <CardsTech nameTech='Sass'/>
+        <CardsTech nameTech='Javascript'/>
+        <CardsTech nameTech={'PHP'}/>
+        <CardsTech nameTech={'Laravel'}/>
+        </>
+        }
+        />
+      <CardsProject 
+        imgProject={sAcessi} 
+        altImg='Landing Page acessibilidade' 
+        nameProject='Landing Page acessibilidade' 
+        descriProject='O site é uma página da web projetada com foco na acessibilidade. Ao acessar o site, a primeira coisa que se destaca é a sua abordagem clara e funcional para garantir que pessoas com diferentes tipos de deficiências possam navegar e interagir com o conteúdo de maneira eficaz. '
+        linkPro='https://lading-page-acessibilidade.vercel.app/'
+        techs={
+        <>
+        <CardsTech nameTech='HTML'/>
+        <CardsTech nameTech='CSS'/>
+        </>
+        }
+        />
         <CardsProject 
         imgProject={sAcessi} 
         altImg='Landing Page acessibilidade' 
