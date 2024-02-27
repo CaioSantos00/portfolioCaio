@@ -5,6 +5,7 @@ import apiClima from "../../assets/Projetos/apiClima.png"
 import cardapio from "../../assets/Projetos/cardapio.png"
 import gerador from "../../assets/Projetos/geradorPass.png"
 import loja from "../../assets/Projetos/loja.png"
+import lojaReact from "../../assets/Projetos/lojaReact.png"
 
 import './Projetos.css'
 export default function Projetos() {
@@ -24,7 +25,22 @@ export default function Projetos() {
         <CardsTech nameTech={'Laravel'}/>
       </div>
       </div>
-      
+      <CardsProject 
+        imgProject={lojaReact} 
+        altImg='E-commerce React' 
+        nameProject='Loja virtual' 
+        descriProject='
+        Este projeto de loja online visa enriquecer meu portfólio, utilizando as tecnologias listadas abaixo.
+        '
+        linkPro='https://front-end-ecommerce-seven.vercel.app/'
+        techs={
+        <>
+        <CardsTech nameTech='HTML'/>
+        <CardsTech nameTech='Sass'/>
+        <CardsTech nameTech='React Js'/>
+        </>
+        }
+        />
       <CardsProject 
         imgProject={loja} 
         altImg='E-commerce MYX' 
