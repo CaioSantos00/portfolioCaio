@@ -30,7 +30,7 @@ export default function Projetos() {
         altImg='E-commerce React' 
         nameProject='Loja virtual' 
         descriProject='
-        Este projeto de loja online visa enriquecer meu portfólio, utilizando as tecnologias listadas abaixo.
+        O projeto do Sistema de carrinho visa enriquecer meu portfólio, utilizando as tecnologias listadas abaixo.
         '
         linkPro='https://front-end-ecommerce-seven.vercel.app/'
         techs={
