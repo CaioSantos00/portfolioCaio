@@ -6,6 +6,7 @@ import cardapio from "../../assets/Projetos/cardapio.png"
 import gerador from "../../assets/Projetos/geradorPass.png"
 import loja from "../../assets/Projetos/loja.png"
 import lojaReact from "../../assets/Projetos/lojaReact.png"
+import calculadoraNokia from "../../assets/Projetos/calculadoraNokia.png"
 
 import './Projetos.css'
 export default function Projetos() {
@@ -56,6 +57,22 @@ export default function Projetos() {
         <CardsTech nameTech='Javascript'/>
         <CardsTech nameTech={'PHP'}/>
         <CardsTech nameTech={'Laravel'}/>
+        </>
+        }
+        />
+        <CardsProject 
+        imgProject={calculadoraNokia} 
+        altImg='Calculadora Nokia' 
+        nameProject='Calculadora Nokia' 
+        descriProject='
+        Esta calculadora foi inspirada no icônico telefone Nokia 3310, lançado nos anos 2000.
+        '
+        linkPro='https://calculadora-nokia.vercel.app/'
+        techs={
+        <>
+        <CardsTech nameTech='HTML'/>
+        <CardsTech nameTech='CSS'/>
+        <CardsTech nameTech='React Js'/>
         </>
         }
         />
