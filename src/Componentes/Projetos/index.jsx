@@ -15,15 +15,14 @@ export default function Projetos() {
         <div id="containerTechs">
       <h1 className="titles" id='titleTech'>Tecnologias</h1>
       <div id='divTechs'>
+        <CardsTech nameTech={'Wordpress'}/>
         <CardsTech nameTech={'HTML'}/>
         <CardsTech nameTech={'CSS'}/>
         <CardsTech nameTech={'Sass'}/>
         <CardsTech nameTech={'Javascript'}/>
         <CardsTech nameTech={'React Js'} />
-        <CardsTech nameTech={'Git Hub'}/>
+        <CardsTech nameTech={'Next Js'} /> 
         <CardsTech nameTech={'Python'}/>
-        <CardsTech nameTech={'PHP'}/>
-        <CardsTech nameTech={'Laravel'}/>
       </div>
       </div>
       <CardsProject 
@@ -42,24 +41,7 @@ export default function Projetos() {
         </>
         }
         />
-      <CardsProject 
-        imgProject={loja} 
-        altImg='E-commerce MYX' 
-        nameProject='Loja virtual MYX' 
-        descriProject='
-        O projeto da loja Mynd Of Gangster está sendo desenvolvido de maneira colaborativa, contando com a ajuda de um Desenvolvedor Back-End. Vale ressaltar que o trabalho realizado está sendo devidamente remunerado, garantindo o reconhecimento e a valorização do profissional envolvido. '
-        linkPro=''
-        techs={
-        <>
-        <CardsTech nameTech='HTML'/>
-        <CardsTech nameTech='CSS'/>
-        <CardsTech nameTech='Sass'/>
-        <CardsTech nameTech='Javascript'/>
-        <CardsTech nameTech={'PHP'}/>
-        <CardsTech nameTech={'Laravel'}/>
-        </>
-        }
-        />
+
         <CardsProject 
         imgProject={calculadoraNokia} 
         altImg='Calculadora Nokia' 
