@@ -22,6 +22,7 @@ export default function Projetos() {
         <CardsTech nameTech={'Javascript'}/>
         <CardsTech nameTech={'React Js'} />
         <CardsTech nameTech={'Next Js'} /> 
+        <CardsTech nameTech={'Git e Git Hub'}/>
         <CardsTech nameTech={'Python'}/>
       </div>
       </div>
