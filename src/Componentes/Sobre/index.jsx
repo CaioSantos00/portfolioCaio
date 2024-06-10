@@ -16,9 +16,7 @@ export default function Sobre() {
           <div id='textSobre'>
             <h1 className="titles">Conheça mais sobre</h1>
             <p>
-            Olá! Me chamo Caio dos Santos Oliveira, um jovem estudante com grande foco no desenvolvimento Full-Stack. Atualmente, estou com 18 anos e possuo um grande amor pelo mundo da tecnologia. 
-            <br />&nbsp;&nbsp;No momento, cursando Superior de Tecnologia em Sistemas para Internet na Faculdade Cruzeiro do Sul Virtual. <br />&nbsp;&nbsp;Busco constantemente por atualizações e aprendizado em relação às novas tecnologias.
-Meu objetivo primordial consiste em iniciar no mercado de trabalho como um desenvolvedor front-end, assim adquirindo um vasto conhecimento e experiência. Estou disposto a abraçar cada novo desafio que seja apresentado.
+            Olá, meu nome é Caio dos Santos Oliveira, tenho 18 anos e meu objetivo profissional é fazer parte de uma equipe de desenvolvedores profissionais, onde poderei aplicar minha expertise em programação e tecnologia para agregar valor à instituição. Atualmente, estou estagiando na empresa EPR Soluções em Informática como Desenvolvedor WordPress, mas estou à procura de novas oportunidades de emprego. Desejo contribuir com minhas habilidades técnicas e conhecimentos em desenvolvimento de software para impulsionar a eficiência, a inovação e a qualidade dos projetos, sempre buscando aprimorar os processos e entregar soluções de alto padrão. Procuro constantemente por atualizações e aprendizado em relação às novas tecnologias.
             </p>
           </div>
         </div>

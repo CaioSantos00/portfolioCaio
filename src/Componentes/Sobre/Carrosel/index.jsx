@@ -10,6 +10,7 @@ import reactImg from "../../../assets/react.png"
 import sass from "../../../assets/sass.png"
 import rocket from "../../../assets/certRocket.png"
 import python from "../../../assets/python.png"
+import word from "../../../assets/wordpress.png"
 
 export default function Carrosel () {
   const settings = {
@@ -44,6 +45,9 @@ export default function Carrosel () {
         </div>
         <div>
           <img src={python} alt='Certificado Fatec' className='imgsCerti' />
+        </div>
+        <div>
+          <img src={word} alt='Certificado Wordpress' className='imgsCerti' />
         </div>
       </Slider>
     </div>

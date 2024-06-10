@@ -4,11 +4,12 @@ import sAcessi from "../../assets/Projetos/siteAcessibilidade.png"
 import apiClima from "../../assets/Projetos/apiClima.png"
 import cardapio from "../../assets/Projetos/cardapio.png"
 import gerador from "../../assets/Projetos/geradorPass.png"
-import loja from "../../assets/Projetos/loja.png"
+import yoga from "../../assets/Projetos/yoga.png"
 import lojaReact from "../../assets/Projetos/lojaReact.png"
 import calculadoraNokia from "../../assets/Projetos/calculadoraNokia.png"
 
 import './Projetos.css'
+import { Link } from "react-router-dom"
 export default function Projetos() {
     return (
       <div id="boxCardsProje">
@@ -26,6 +27,19 @@ export default function Projetos() {
         <CardsTech nameTech={'Python'}/>
       </div>
       </div>
+      <CardsProject 
+        imgProject={yoga} 
+        altImg='Site Yoga' 
+        nameProject='Site Yoga' 
+        descriProject='Este site de Yoga foi desenvolvido no teste técnico da EPR Soluções em Informática. Utilizando Wordpress, criei páginas simples e intuitivas.
+        Abaixo o vídeo do projeto: '
+        linkPro='https://www.linkedin.com/feed/update/urn:li:activity:7189443807623430145/'
+        techs={
+          <>
+        <CardsTech nameTech='Wordpress'/>
+        </>
+        }
+        />
       <CardsProject 
         imgProject={lojaReact} 
         altImg='E-commerce React' 
